@@ -70,7 +70,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W3f-IM-tFM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="440" y="1225"/>
+            <point key="canvasLocation" x="385.5" y="1140.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8Xp-dl-8hG">
@@ -118,6 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z9P-YR-ZLx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< Updated upstream
             <point key="canvasLocation" x="-93" y="1951"/>
         </scene>
         <!--View Controller-->
@@ -142,6 +143,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OO0-p9-SQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-336" y="1225"/>
+=======
+            <point key="canvasLocation" x="54" y="1885"/>
+>>>>>>> Stashed changes
         </scene>
         <!--View Controller-->
         <scene sceneID="k7c-Uq-MFW">
@@ -176,13 +180,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="prm-kG-PRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="801" y="1979"/>
+            <point key="canvasLocation" x="718" y="1885"/>
         </scene>
     </scenes>
     <resources>
         <image name="search.jpg" width="97" height="95"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< Updated upstream
         <segue reference="IHk-i2-o8r"/>
+=======
+        <segue reference="FAU-PK-SUD"/>
+>>>>>>> Stashed changes
     </inferredMetricsTieBreakers>
 </document>
