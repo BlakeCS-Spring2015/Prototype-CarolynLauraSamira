@@ -43,7 +43,15 @@
                         <viewControllerLayoutGuide type="bottom" id="swp-2U-kal"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZHX-bx-5Mb">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+=======
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nH-R2-Idn">
@@ -81,7 +89,15 @@
                         <viewControllerLayoutGuide type="bottom" id="1wo-v7-6cL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aXb-Bu-nvy">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+=======
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="search.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VBa-yU-iPY">
@@ -156,7 +172,15 @@
                         <viewControllerLayoutGuide type="bottom" id="3Gj-KO-jAr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="51P-ZP-SFu">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+=======
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item Page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGV-BF-azH">
@@ -174,6 +198,21 @@
                                     <segue destination="cR5-pM-f0U" kind="show" id="FAU-PK-SUD"/>
                                 </connections>
                             </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G8H-WZ-RvM" customClass="UITextView">
+                                <rect key="frame" x="16" y="326" width="261" height="173"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="488-wS-RF5">
+                                        <rect key="frame" x="0.0" y="0.0" width="261" height="202"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="search.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OvL-r2-IRX">
+                                <rect key="frame" x="243" y="20" width="350" height="338"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -189,6 +228,11 @@
     <inferredMetricsTieBreakers>
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+        <segue reference="FAU-PK-SUD"/>
+=======
+>>>>>>> FETCH_HEAD
+<<<<<<< HEAD
         <segue reference="gbt-ZA-hgD"/>
 =======
 <<<<<<< Updated upstream
@@ -197,8 +241,12 @@
         <segue reference="FAU-PK-SUD"/>
 >>>>>>> Stashed changes
 >>>>>>> FETCH_HEAD
+<<<<<<< HEAD
 =======
         <segue reference="IHk-i2-o8r"/>
 >>>>>>> parent of ef91d5d... Change screen size
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
     </inferredMetricsTieBreakers>
 </document>
