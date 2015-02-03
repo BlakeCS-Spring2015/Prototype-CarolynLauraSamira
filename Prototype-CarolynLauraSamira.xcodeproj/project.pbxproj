@@ -14,6 +14,7 @@
 		AB3B10231A7EADF300A8B094 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3B10221A7EADF300A8B094 /* Images.xcassets */; };
 		AB3B10261A7EADF300A8B094 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3B10241A7EADF300A8B094 /* LaunchScreen.xib */; };
 		AB3B10321A7EADF300A8B094 /* Prototype_CarolynLauraSamiraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B10311A7EADF300A8B094 /* Prototype_CarolynLauraSamiraTests.m */; };
+		BCE91B3F1A813DA200D05986 /* search.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCE91B3E1A813DA200D05986 /* search.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		AB3B102B1A7EADF300A8B094 /* Prototype-CarolynLauraSamiraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prototype-CarolynLauraSamiraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3B10301A7EADF300A8B094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB3B10311A7EADF300A8B094 /* Prototype_CarolynLauraSamiraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype_CarolynLauraSamiraTests.m; sourceTree = "<group>"; };
+		BCE91B3E1A813DA200D05986 /* search.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		AB3B102F1A7EADF300A8B094 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCE91B3E1A813DA200D05986 /* search.jpg */,
 				AB3B10301A7EADF300A8B094 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -202,6 +205,7 @@
 				AB3B10211A7EADF300A8B094 /* Main.storyboard in Resources */,
 				AB3B10261A7EADF300A8B094 /* LaunchScreen.xib in Resources */,
 				AB3B10231A7EADF300A8B094 /* Images.xcassets in Resources */,
+				BCE91B3F1A813DA200D05986 /* search.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +418,7 @@
 				AB3B10371A7EADF300A8B094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB3B10381A7EADF300A8B094 /* Build configuration list for PBXNativeTarget "Prototype-CarolynLauraSamiraTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				AB3B103A1A7EADF300A8B094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
