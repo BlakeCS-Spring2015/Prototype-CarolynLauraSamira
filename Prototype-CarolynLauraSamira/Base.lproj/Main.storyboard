@@ -43,7 +43,7 @@
                         <viewControllerLayoutGuide type="bottom" id="swp-2U-kal"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZHX-bx-5Mb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nH-R2-Idn">
@@ -81,16 +81,16 @@
                         <viewControllerLayoutGuide type="bottom" id="1wo-v7-6cL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aXb-Bu-nvy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="search.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VBa-yU-iPY">
                                 <rect key="frame" x="0.0" y="0.0" width="321" height="273"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZU-F9-VNT">
-                                <rect key="frame" x="16" y="281" width="568" height="230"/>
+                                <rect key="frame" x="16" y="281" width="305" height="230"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -103,13 +103,45 @@
                                     <segue destination="cR5-pM-f0U" kind="show" id="IHk-i2-o8r"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ch0-Bw-jBt">
+                                <rect key="frame" x="0.0" y="0.0" width="316" height="283"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NUd-kD-MzF" kind="show" id="73d-Ax-wRA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z9P-YR-ZLx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-64" y="1979"/>
+            <point key="canvasLocation" x="-93" y="1951"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3jv-U1-Y1b">
+            <objects>
+                <viewController id="NUd-kD-MzF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0mc-2C-YoU"/>
+                        <viewControllerLayoutGuide type="bottom" id="olV-aK-4UH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zbr-pE-ggn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="search.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4NP-NP-Uc5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OO0-p9-SQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-336" y="1225"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="k7c-Uq-MFW">
@@ -120,7 +152,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3Gj-KO-jAr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="51P-ZP-SFu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item Page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGV-BF-azH">
@@ -151,6 +183,6 @@
         <image name="search.jpg" width="97" height="95"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gbt-ZA-hgD"/>
+        <segue reference="IHk-i2-o8r"/>
     </inferredMetricsTieBreakers>
 </document>
